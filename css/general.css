@@ -5,19 +5,42 @@ html {
 }
 
 body {
-    background-color: #A89A8A
+    background-color: #A89A8A;
+    border-top: 30px solid #102B07;
+    border-bottom: 30px solid #102B07;
 }
 h1 {
     font-family: Impact, sans-serif;
     color: #1A4C1A;
     font-size: 3rem;
-    line-height: 3.5rem
+    line-height: 3.5rem;
 }
 
 h2 {
-    color: #102B07
+    font-family: Impact, sans-serif;
+    font-size: 2rem;
+    color: #1A4C1A
 }
 
 ul {
+    font-style:oblique;
+}
 
- 
+h1 + p {
+    font-size: 1.25rem;
+}
+
+h3 { 
+    font-family: Impact, serif;
+    font-size: 2rem;
+    color: #1A4C1A;
+}
+
+strong {
+    font-weight:bold;
+    color: #102B07;
+}
+
+em {
+    font-weight: bold;
+    font-style: italic'
